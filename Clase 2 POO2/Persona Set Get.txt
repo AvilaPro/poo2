@@ -1,0 +1,37 @@
+Clase Persona
+	Privado Definir nombre, apellido, cedula como Character
+	Privado Definir edad como Integer
+
+	Publico Metodo setNombre (Nnombre como Character)
+		nombre=Nnombre
+	Fin Metodo
+
+	Publico Metodo getNombre()
+		return=nombre
+	Fin Metodo
+
+	Publico Metodo setApellido (Napellido como Character)
+		apellido=Napellido
+	Fin Metodo
+
+	Publico Metodo getNombre()
+		return=apellido
+	Fin Metodo
+
+	Publico Metodo setCedula (Ncedula como Character)
+		cedula=Ncedula
+	Fin Metodo
+
+	Publico Metodo getNombre()
+		return=cedula
+	Fin Metodo
+
+	Publico Metodo setEdad (Nedad como Integer)
+		edad=Nedad
+	Fin Metodo
+
+	Publico Metodo getEdad()
+		return=edad
+	Fin Metodo
+
+Fin Clase

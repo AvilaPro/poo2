@@ -1,0 +1,26 @@
+Clase Asignatura
+	private Definir nombre como Character
+	private Definir evaluaciones como Character
+	private Definir nro_estudiantes como Integer
+
+	public Metodo setNombre (Nnombre como Character)
+		nombre=Nnombre
+	Fin Metodo
+
+	public Metodo getNombre()
+		return=nombre
+	Fin Metodo
+
+	public Metodo setEvaluaciones (Nevaluaciones como caracter)
+		evaluaciones=Nevaluaciones
+	Fin Metodo
+
+	public Metodo getNombre()
+		return=apellido
+	Fin Metodo
+
+	public Metodo setNro_estudiantes (Nnro_estudiantes como caracter)
+		nro_estudiantes=Nnro_estudiantes
+	Fin Metodo
+
+Fin Clase

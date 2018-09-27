@@ -1,0 +1,42 @@
+Clase Estudiante
+	Privado Definir promedio, nota_parcial, eval_cont, trab_pract como real
+	Privado Definir nombre, apellido como caracter
+	Metodo Datos()						//los metodos deben registrarse dentro de la clase
+		Mostrar "Ingrese el nombre del estudiante: "
+		Leer nombre 
+		Mostrar "Ingrese el apellido del estudiante: " 
+		Leer apellido
+		Mostrar "Ingrese las notas de los examenes parciales: "
+		Mostrar "Ingrese la nota del parcial 1: " 
+		Leer parcial1                   
+		Mostrar "Ingrese la nota del parcial 2: " 
+		Leer parcial2
+		Mostrar "Ingrese la nota del parcial 3: " 
+		Leer parcial3
+		Mostrar "Ingrese la nota de la evaluacion continua: " 
+		Leer eval_cont
+		Mostrar "Ingrese la nota del trabajo practico: " 
+		Leer trab_pract
+	Fin Metodo
+	Metodo calc_prom(parcial1, parcial2, parcial3, eval_cont, trab_pract)
+		promedio=(parcial1+parcial2+parcial3+eval_cont+eval_cont+trab_pract)
+		retornar promedio
+	Fin Metodo
+	Metodo mostrar(nombre, apellido, promedio)
+		Mostrar "La nota final de " nombre " " apellido " en escala de 100 puntos es: " promedio   //a1.promedio //calc_prom()
+		Mostrar "La nota final de " nombre " " apellido " en escala de 20 puntos es: " (promedio*20)/100  //(a1.promedio*20)/100  //(calc_prom()*20)/100
+		Mostrar "La nota final de " nombre " " apellido " en escala de 4 puntos es: " (promedio*4)/100  //(a1.promedio*4)/100  //(calc_prom()*4)/100
+	Fin Metodo
+	Publico Metodo Resultado()
+		Datos()
+		calc_prom()
+		mostrar()
+	Fin Metodo
+FinClase
+
+Algoritmo Alumno
+	Definir a1 como Estudiante
+	a1 = nuevo Estudiante()    //(Esto es la instanciacion del objeto)
+	
+	a1.Resultado()
+FinAlgoritmo

@@ -1,0 +1,11 @@
+En una Universidad la asignatura Introducción a la Computación tiene las siguientes evaluaciones por cada semestre:
+
+a.- Tres exámenes parciales de 27 puntos cada uno.
+b.- Evaluación continua de 9 puntos.
+c.- Un trabajo práctico de 10 puntos.
+
+Se tiene como entrada: Las calificaciones obtenidas por un estudiante, se pide calcular e imprimir. Nota final del estudiante en las escalas de 100 puntos, 20 puntos y 4 puntos respectivamente.
+
+
+
+En una zapatería se muestra a los clientes los diferentes modelos de zapatos con sus respectivos precios, los cuales incluyen el IVA (12%). La tienda tiene la siguiente promoción: a cada cliente que compre un par de zapatos le descuenta el valor del IVA. Se pide calcular el valor que el cliente va a cancelar por su par de zapatos.

@@ -1,0 +1,120 @@
+
+Clase Empleado
+	Privado Definir nombre, cedula, cargo como Character
+	Privado Definir salario_base, bono_venta, hora_extra, salario_neto como Real 
+	Publico	Definir	Nnombre, Ncargo, Ncedula, Nsalariobase, Nbonoventa, Nhoraextra, Nsalarioneto como Real
+
+
+	Publico Metodo setNombre (Nnombre como Character)
+		nombre=Nnombre
+	Fin Metodo
+
+	Publico Metodo getNombre()
+		return=nombre
+	Fin Metodo
+
+	Publico Metodo setCargo (Ncargo como Character)
+		cargo=Ncargo
+	Fin Metodo
+
+	Publico Metodo getCargo()
+		return=cargo
+	Fin Metodo
+
+	Publico Metodo setCedula (Ncedula como Character)
+		cedula=Ncedula
+	Fin Metodo
+
+	Publico Metodo getCedula()
+		return=cedula
+	Fin Metodo
+
+	Publico Metodo setSalariobase (Nsalariobase como Real)
+		salario_base=Nsalariobase
+	Fin Metodo
+
+	Publico Metodo getSalariobase()
+		return=edad
+	Fin Metodo
+
+	Publico Metodo setBonoventa (Nbonoventa como Real)
+		bono_venta=Nbonoventa
+	Fin Metodo
+
+	Publico Metodo getBonoventa()
+		return=bono_venta
+	Fin Metodo
+
+	Publico Metodo setHoraextra (Nhoraextra como Real)
+		hora_extra=Nhoraextra
+	Fin Metodo
+
+	Publico Metodo getHoraextra()
+		return=hora_extra
+	Fin Metodo
+
+	Publico Metodo setSalarioneto (Nsalarioneto como Real)
+		salario_neto=Nsalarioneto
+	Fin Metodo
+
+	Publico Metodo getSalarioneto()
+		return=salario_neto
+	Fin Metodo
+
+	Publico Metodo datos()
+		Mostrar "Ingrese el nombre del Empleado:"
+		Leer Nnombre
+		setNombre(Nnombre)
+		Mostrar "Ingrese la cedula del Empleado"
+		Leer Ncedula
+		setCedula(Ncedula)
+		Mostrar "Ingrese el cargo del Empleado:"
+		Leer Ncargo
+		setCargo(Ncargo)
+		Mostrar "Ingrese el monto de las ventas del Empleado:"
+		Leer Nbonoventa
+		Mostrar "Ingrese el numero de horas extra que trabajo el Empleado:"
+		Leer Nhoraextra
+	Fin Metodo
+
+	Publico Metodo calculo_salario(Nsalariobase, Nbonoventa, Nhoraextra, Nsalarioneto)
+		Nsalariobase=3000000
+		setSalariobase(Nsalariobase)
+		Nbonoventa=Nbonoventa*0.15 /*entendiendo que le dan el 15% de bono en base a sus ventas*/
+		setBonoventa(Nbonoventa)
+		Nhoraextra=Nhoraextra*(Nsalariobase*0.0001)
+		setHoraextra(Nhoraextra)
+		Nsalarioneto=Nsalariobase+Nbonoventa+Nhoraextra /*asumiendo que Nnsalarioneto esta inicializado en 0*/
+		setSalarioneto(Nsalarioneto)
+	Fin Metodo
+
+Fin Clase
+
+Algoritmo Sueldo 
+	Definir e1 como Empleado
+	e1=nuevo Empleado()
+
+	e1.Datos()
+	e1.calculo_salario(Nsalariobase, Nbonoventa, Nhoraextra, Nsalarioneto)
+	Mostrar "El nombre del primer empleado es: " e1.getNombre()
+	Mostrar "La cedula del primer empleado es: " e1.getCedula()
+	Mostrar "El cargo que ocupa el primer empleado es: " e1.getCargo()
+	Mostrar "El salario base de este empleado es: " e1.getSalariobase()
+	Mostrar "El bono por ventas es de: " e1.getBonoventa() "BsS"
+	Mostrar "El pago adicional por horas extra es de: " e1.getHoraextra() "BsS"
+	Mostrar "El salario de" e1.getNombre "es de:" e1.getSalarioneto() "BsS"
+
+	Definir e2 como Empleado
+	e2=nuevo Empleado
+
+	e2.Datos()
+	e2.calculo_salario(Nsalariobase, Nbonoventa, Nhoraextra, Nsalarioneto)
+	Mostrar "El nombre del primer empleado es: " e2.getNombre()
+	Mostrar "La cedula del primer empleado es: " e2.getCedula()
+	Mostrar "El cargo que ocupa el primer empleado es: " e2.getCargo()
+	Mostrar "El salario base de este empleado es: " e2.getSalariobase()
+	Mostrar "El bono por ventas es de: " e2.getBonoventa() "BsS"
+	Mostrar "El pago adicional por horas extra es de: " e2.getHoraextra() "BsS"
+	Mostrar "El salario de" e2.getNombre "es de:" e2.getSalarioneto() "BsS"
+
+Fin Algoritmo

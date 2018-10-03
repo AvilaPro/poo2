@@ -1,0 +1,52 @@
+Clase Accesorio
+	Definir color, tipo_acc, collar, zarcillo, brazalete, anillo, material como caracter
+		CLase color
+			Definir blanco, negro, dorado, del_material como caracter
+		Clase collar
+			Definir	perlas, cadena, cuero como caracter
+		Clase zarcillo
+			Definir zar_cortos, zar_largos como caracter
+		Clase brazalete
+			Definir un_aro, dos_aros, tres_aros como caracter
+		Clase anillo
+			Definir de_pulgar, de_medio, de_anular como caracter
+		Clase material
+			Definir acero, plata, oro como caracter
+
+	Metodo Datos_acc()						//los metodos deben registrarse dentro de la clase
+		Mostrar "Ingrese el tipo de accesorio (collar, zarcillo brazalete, anillo): "
+		Leer nombre 
+		Mostrar "Ingrese el apellido del estudiante: " 
+		Leer apellido
+		Mostrar "Ingrese las notas de los examenes parciales: "
+		Mostrar "Ingrese la nota del parcial 1: " 
+		Leer parcial1                   
+		Mostrar "Ingrese la nota del parcial 2: " 
+		Leer parcial2
+		Mostrar "Ingrese la nota del parcial 3: " 
+		Leer parcial3
+		Mostrar "Ingrese la nota de la evaluacion continua: " 
+		Leer eval_cont
+		Mostrar "Ingrese la nota del trabajo practico: " 
+		Leer trab_pract
+	Fin Metodo
+	Metodo calc_prom()
+		promedio=parcial1+parcial2+parcial3+eval_cont+trab_pract
+	Fin Metodo
+	Metodo mostrar()
+		Mostrar "La nota final de " nombre " " apellido " en escala de 100 puntos es: " calc_prom()   //a1.promedio   
+		Mostrar "La nota final de " nombre " " apellido " en escala de 20 puntos es: " (calc_prom()*20)/100  //(a1.promedio*20)/100
+		Mostrar "La nota final de " nombre " " apellido " en escala de 4 puntos es: " (calc_prom()*4)/100  //(a1.promedio*4)/100
+	Fin Metodo
+	Metodo Resultado()
+		Datos()
+		mostrar()
+	Fin Metodo
+FinClase
+
+Algoritmo Venta
+	Definir a1 como Estudiante
+	a1 = nuevo Estudiante()    //(Esto es la instanciacion del objeto)
+	
+	a1.Resultado()
+FinAlgoritmo

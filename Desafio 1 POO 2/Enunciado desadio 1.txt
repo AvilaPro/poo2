@@ -1,0 +1,13 @@
+Enunciado de la tarea 1 de la sección 2709
+
+Una tienda dedicada a la venta de accesorios registra una factura a sus clientes por cada compra realizada, los clientes pueden comprar un accesorio por factura. Diseñe un algoritmo orientado a objetos que muestre toda la información de cada factura (código factura, fecha, monto iva, total, datos del cliente y datos del accesorio vendido)
+
+1.- Defina las clases correspondientes: accesorio, factura y cliente, con sus atributos necesarios (mínimo 3 para cada clase excepto para factura ) con su tipo de dato adecuado y por lo menos dos atributos que sean objeto de otra clase
+
+2.- Defina los métodos para: registrar cliente, registrar factura, registrar datos del accesorio y los métodos necesarios para mostrar los datos solicitados en el enunciado
+
+3.- Desde el cuerpo principal defina e instancie los objetos de las clases usando la sintaxis correcta
+
+4.- Desde el cuerpo principal calcule el monto del iva y total factura, asignando los valores a la factura
+
+5.- Desde el cuerpo principal invoque los métodos necesarios para mostrar las salidas solicitadas usando la sintaxis correcta

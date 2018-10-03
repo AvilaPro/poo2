@@ -1,0 +1,75 @@
+1.Definiendo Clases
+	- Nombres
+	- Los atributos
+	- Definir objetos
+
+2.Objetos
+	- Instanciar clases
+	- Manipular atributos
+	- El valor NULL
+
+3.Los metodos. Parte 1
+	- Definición de metodos
+	- Ejecución de métodos
+
+4.Atributos Compuestos
+	- Definición de Atributos
+	- Acceso interno
+	- Acceso externo 
+
+5.Los metodos. parte 2
+	- valor de retorno
+	- paso de parámetros
+
+6.Modificadores de Acesso
+	- Ocultamiento
+	- public
+	- private
+
+7.Getter y Setter
+	- Getter
+	- Setter
+	- Usando getters y setters
+
+8.Instrucciones Condiciones
+	- Operadores relacionales
+	- Comparando objetos
+	- Condiciones
+
+9.Ciclos
+	- Instrucciones iterativas
+	- Iterando en los métodos
+	- Iterando al llamar métodos
+
+10.Constructores
+	- Concepto
+	- Constructor por defecto
+	- constructor con parámetros
+
+11.métodos. Parte 3
+	- Sobre carga de métodos
+	- Ejecutar métodos sobre cargados
+	- Sobre carga de constructores
+
+12.Colecciones. Parte 1
+	- Definicion de una coleccion
+	- Agregar objetos
+	- Acceso a atributos y metodos
+
+13.Colecciones. Parte 2
+	- Atributos de tipo coleccion
+	- Acceso externo a atributos y metodos
+	- Parametros 
+
+14.Herencia. Parte 1
+	- Definir sub clases
+	- Acceso a atributos
+	- El modificador Protected
+
+15.Herencia. Parte 2
+	- Sobre escritura de metodos
+	- Metodos abstractos
+	- Clases abstractas
+
+
+	

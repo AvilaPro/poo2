@@ -1,0 +1,304 @@
+1 Cuando se define una clase se debe definir: 
+nombre clase y atributos, 
+atributos y métodos, 
+nombre de la clase, atributos y métodos, 
+solo nombre de la clase
+
+2 En un mismo programa se pueden definir tantas clases como sea necesario:
+ Algunas veces, 
+ Siempre, 
+ verdadero, 
+ falso
+
+3 Los atributos de una clase pueden ser: 
+simples y primitivos, 
+simples y complejos, 
+primitivos y complejos, 
+solo complejos
+
+4 En una clase se pueden definir dos o mas atributos con el mismo nombre: 
+Siempre
+casi siempre
+nunca
+en las clases no se definen atributos
+
+5- En el pseudocodigo usado en clase cuál es la sintaxis correcta  para definir una clase: 
+	Clase nombre clase- fin clase
+	class nombreclase endclass
+	clase { }
+	clase nombreclase { } finclase
+
+6- Cual de estas premisas sobre os atributos de una clase es cierta: 
+	Un atributo es una variable que se declara internamente en una clase
+	los atributos mínimos de una clase son las entradas y las salidas
+	En una clase se pueden definir dos o mas atributos con el mismo nombre
+	Todas las anteriores
+	
+7- Cual es la sintaxis correcta en pseudocodigo para instanciar una clase 
+	
+	definir objeto como clase, 
+	miobjeto = nuevo clase(), 
+	miobjeto = nuevo objeto, 
+	definir miobjeto = nuevo clase()
+	
+8- Cual de estas premisas es cierta sobre los objetos
+	En los lenguajes de programacion donde no se declaran las variables, solo se hace la instanciacion
+	En los lenguajes de programacion donde se declaran las variables, un objeto puede ser usado aunque no sea instanciado
+	En los lenguajes de programacion donde se declaran las variables, solo se hace la instanciacion
+	b y c
+	
+9- Cual es el operador usado en pseudocodigo para acceder a los atributos y métodos de una clase usando el objeto
+	*  .  +  Ninguno de los anteriores
+
+
+10- Cual es la forma correcta apra acceder a los atributos privados de una clase 
+	objeto.atributo()
+	
+11- La sintaxis correcta para llamar métodos desde el cuerpo principal: o
+	objeto.metodo()
+	objeto.metodo
+	metodo()
+	Ninguna de las anteriores
+
+12- Cual de estas premisas sobre los metodos es falsa
+	Los metodos pueden acceder y manipular atributos de la clase
+	Se definen en la clase pero no se ejecutan hasta que sean llamados en algun lugar
+	Un metodo no puede llamar a otro metodo.
+	Un metodo puede ser ejecutado por otro metodo de la misma clase 
+
+13- Cuantos parámetros puede recibir un metodo: 
+	tantos como sea necesario 
+	dos parámetros
+	solo un parametro
+	un método no puede recibir parámetros
+
+14-Si tenemos definida las clases Fecha (con atributos: días, mes, año) y la clase Persona. La clase 
+Persona tiene un atributo llamado "nacimiento" de tipo Fecha. Cuál es la forma correcta para mostrar 
+el día de nacimiento en un método de la clase Persona ? 
+
+	nacimiento.dia 
+	objeto.nacimiento.dia
+	dia
+	todas las anteriores
+
+15-Cual es la instrucción correcta usada para que un método retorne un valor: 
+	devolver
+	mostrar 
+	retornar
+	todas las anteriores
+
+
+16-Cuando se ejecuta un método  que tiene parámetros, estos deben ser enviados al 
+método cuando se solicita su ejecución ?: 
+	A veces
+	siempre 
+	casi siempre
+	nunca
+
+17- Cuál es el método que nos permite acceder a los atributos privados de una clase: 
+	obtener() 
+	get
+	set 
+	establecer()
+
+18- Cuál se las siguientes premisas es cierta sobre modificadores de acceso:
+
+	Permiten controlar a cuales elementos de un objeto se pueden acceder desde el mundo exterior 
+	Se especifican al definir los elementos de una clase
+	En general en la mayoría de lenguajes existen tres tipos de modificadores de acceso
+	Todas las anteriores 
+	
+19- cuales de los siguientes, son los tipos de modificadores de acceso: 
+
+	getters y setters 
+	público y privado 
+	público, privado y protegido
+	público, privado y solo lectura
+
+20- Cuál es el modificador de acceso que se establece por defecto: 
+	privado 
+	público 
+	protegido
+	no se establece ninguno por defecto 
+
+21-cual es la sintaxis correcta para colocar un modificador de acceso a los atributos:
+	definir atributo como caracter publico
+	publico definir atributo como caracter
+	definir atributo como caracter 
+	ninguna de las anteriores
+	
+22- El ocultamiento: 
+	se refiere a la capacidad de hacer que los atributos esten ocultos o escondidos
+	la intencion es proteger los elementos sensibles del objeto 
+	Esconder las clase del cuerpo principal 
+	Todas las anteriores
+	
+23-Cuál es la forma correcta para acceder a los atributos privados de un objeto ? 
+	Haciendo métodos publicos que se crean para ese fin 
+	Usando los métodos getters 
+	No podemos acceder a los atributos privados de un objeto 
+	a y b 
+	
+24- Es un método que tiene como objetivo retornar el valor de un atributo privado: 
+	set 
+	get
+	set y get 
+	ninguna de las anteriores
+	
+25- Cual de estas premisas es cierta sobre el método get
+	Se usa para cambiar el valor de un atributo privado
+	Tiene como objetivo retornar el valor de un atributo
+	Debe ser publico 
+	b y c 
+26- Cual es la sintaxis correcta para definir un método get
+	publico metodo getatributo() como tipo de dato / fin metodo
+	privado metodo getatributo / fin metodo
+	privado metodo getatributo como tipo de dato/ fin metodo
+	Ninguna de las anteriore
+
+27- Cual es la finalidad del método set :
+	Obtener el valor de atributos privados
+	Asignar un valor a un atributo privado
+	Asignar valor a atributod publicos y privados
+	Todas las anteriores
+28- Cual es la sintaxis correcta para cambiar el valor de un atributo privado, usando el método set:
+	setatributo(valor), objeto.setatributo(valor), setatributo = "valor", Todas las anteriores
+29- Cual de estas premisas sobre los métodos get y set es falsa
+	El método get debe ser un método que retorne el valor del atributo 
+	El método set recibe un parámetro y no retorna nada
+	El método get no recibe parámetros y retorna un valor
+	Ninguna de las anteriores
+30-Las condiciones pueden estar
+	Internamente en los métodos de una clase o en el cuerpo principal del programa
+	Solo en el cuerpo principal
+
+	Todas las anteriores
+31-Cual de los siguientes no son operadores relacionales
+	<>, *, ==, todas las anteriores
+32- Una instruccion que indica que ciertas instrucciones deben repetirse: 
+	instruccion condicional, condicionales y ciclos, ciclos, instruccion iterativa o ciclo
+33- Cual de estos son tipso de ciclos: para y mientras, para mientras y repetir hasta, para si sino y mientras, ninguna de las anteriores
+34-  Cual es al sisntaxis correcta para escribir un ciclo para: para i=0 hasta 5 hacer/ fin para, 
+35- Los ciclos pueden estar: 	
+	Dentro de los metodos de la clase
+	En el cuerpo principal 
+	a y b
+	Ninguna de las anteriores
+	
+36- Si tenemos un metodo saludar que muestra un mensaje 3 veces y lo llamamos en el cuerpo principal en un ciclo para que se repite 3 veces, cuantas veces se aparecerá el mensaje en pantalla? 3 veces, 9 veces, 12 veces, 1 sola vez
+37- Que premisa es cierta sobre las condiciones
+    Las condiciones permiten que el flujo del programa no sea alterado
+    Las condiciones  solo pueden estar en el cuerpo principal del programa
+    Las condiciones no permiten comparar objetos
+    Ninguna de las anteriores
+38- Es un método que se ejecuta automaticamente al crear un objeto
+    set
+    get
+    constructor
+    constructor con parámetros 
+39- Que ocurre cuando una clase no tiene un método constructor?
+    No ocurre nada
+    Los  atributos son inicializados en cero
+    Los  atributos son inicializados en sus valores por defecto 
+    Se crea el objeto
+40- Qué valor por defecto toma un atributo de tipo numérico?
+    Vacío
+    Null
+    0
+    Falso
+41- Cuál de las siguientes premisas sobre los constructores es cierta?
+    Tiene el mismo nombre de la clase
+    No deben tener tipo de retorno
+    No deben ser funciones
+    Todas las anteriores
+
+42- En que se diferencia un constructor por defecto de un constructor con parametros?
+    El constructor por defecto tiene el mismo nombre de la clase, el constructor con parámetros no
+    El constructor por defecto no retorna un valor, el constructor con parámetros si
+    El constructor por defecto no tiene parámetros mientras que el constructor con parámetros si
+    Todas las anteriores
+	
+43- Cuándo se ejecuta el método constructor?
+    Cuando se instancia un objeto de la clase
+    Luego de la palabra nuevo
+    cuando se declara el objeto 
+	Ninguna de las anteriores
+	
+44- Si tenemos una variable declarada en un método
+	Es una variable local
+	Solo puede ser usada en el método donde se declara
+	No puede ser usada por otros métodos de la clase 
+	Todas las anteriores
+	
+45-Cuando tenemos dos o más métodos con el mismo nombre pero funcionalidad distinta:
+	Sobrecarga de métodos
+	Sobrecarga de funciones
+	Sobrecarga de parámetros
+	Sobrecarga
+	
+46-Es una variable que permite almacenar varios objetos del mismo tipo con el fin de no 
+declarar una variable para cada objeto 
+	Cadena
+	Colección
+	Lista 
+	Ninguna
+	
+47-Cual de las siguientes es una operación que se puede ejecutar sobre una colección?
+	Eliminar
+	Insertar
+	Agregar 	
+	Todas las anteriores
+	
+48-Cual es la sintaxis correcta para acceder a un elemento de una colección ?
+	colección[i]
+ 	Coleccion(i)
+	Coleccion.i
+	Todas las anteriores
+	
+49-Si declaramos atributos de tipo colección de objetos de otra clase:
+	La clase contenida debe estar previamente definida 
+	La clase contenedora debe estar previamente definida 
+	No se pueden declarar atributos de tipo colección
+	La colección debe estar definida en el cuerpo principal
+	
+50- Cómo se accede a los elementos de una colección que está dentro de una clase?
+	objeto.coleccion[i].atributo
+	objeto.coleccion(i).atributo
+	objeto.coleccion[i].metodo
+	Objeto.coleccion(i).metodo()
+	
+51-Un método puede recibir un objeto por parametro
+	Siempre
+	Casi siempre
+	Cuando es necesario
+	Un método no recibe parámetros
+	
+52-Si tenemos una clase A y definimos una clase B que extiende de la clase A:
+	La clase A es la super clase o clase base
+	La clase B es la clase derivada o subclase 
+	La clase B hereda los métodos y atributos de A
+	Todas las anteriores 
+	
+53- Cuàl es la palabra reservada para definir una clase en base a otra 
+	Extiende
+	Heredar
+	Extender
+	Herencia
+	
+54-Cuando una super clase permite que algunos atributos sean accesibles para las subclases 
+pero privados para otras clases
+	Usamos el modificador privado
+	Usamos el modificador protected
+	No usamos modificador 
+	Usamos el modificador público
+	
+55-Es la forma por la cual una clase que hereda puede redefinir los métodos de su clase padre
+	Sobrecarga de métodos
+	Sobreescritura de métodos
+	Sobreescritura
+	Una clase no puede redefinir los métodos de su clase padre
+	
+	
+
+
+

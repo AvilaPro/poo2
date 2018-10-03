@@ -1,0 +1,4 @@
+- mejorar el capitulo de modificadores de acceso,getter y setter
+- crear capitulo para hablar de como usar los metodos
+- hablar de atributos de tipo compuesto, es decir, atributos de otras clases
+- hablar de colecciones de objetos

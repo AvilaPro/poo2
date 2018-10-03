@@ -1,0 +1,16 @@
+- modelar
+- abstraccion
+	- nivel 0: objetos
+	- nivel 1: clases
+- Modelar objetos tangibles y objetos intangibles
+
+- ejercicio para distinguir entre clase y objeto
+
+Professors can teach several courses. A course, in turn, can be taught by several professors. For example, the course Business Information Systems is taught by Bart and Jan. The course Database Management is taught by Linda only. When there are too many students registered for a course, an exam can be distributed among several exams running simultaneously, e.g. the same exam taking place in different rooms or even on different dates. For example, the multiple choice exam of Business Information Systems is taken by 300 students distributed across room A, room B and room C. Linda takes oral exams. She takes 15 students per day, meaning that she requires 4 days to interrogate the 60 registered students. Drag the different items onto the appopriate zones below. 
+
+
+- Al hablar de atributos de una clase, mostrar ejemplos de objetos con valores particulares de esos atributos
+
+- usar inicialmente solamente atributos de tipos de datos primitivos solamente
+
+- usar un buen ejemplo

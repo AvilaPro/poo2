@@ -1,7 +1,9 @@
 Enunciado de la tarea 2 de la sección 2709
 
 Una tienda de zapatos paga a sus empleados un salario base de tres millones más el 15% de bonificación en base al bono de sus ventas, adicionalmente paga 0,01% del salario base por cada hora extra trabajada durante el mes.
+
 Diseñe en pseudocódigo un algoritmo que calcule el salario total de dos empleados y muestre los resultados en pantalla: nombre del empleado, cédula de identidad, cargo que ocupa, salario base, total percibido por bono de ventas, total percibido por horas extras y el salario neto
+
 1.- Defina la clase necesaria con los atributos apropiados asignando modificador de acceso privado para los atributos
 
 2.- Defina los métodos getters y setters para cada atributo

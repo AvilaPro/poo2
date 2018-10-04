@@ -1,0 +1,72 @@
+Clase Estudiante
+	Privado Definir total, parcial1, parcial2, parcial3 eval_cont, trab_pract como real
+	Privado Definir nombre, apellido como caracter
+	public Definir nTotal como Real
+	public Definir nNombre como caracter
+	public Metodo setNombre(nNombre)
+		nombre=nNombre
+	Fin Metodo
+	public Metodo getNombre() como caracter
+		return nombre
+	Fin Metodo
+	public Metodo setTotal(nTotal) 
+		total=nTotal
+	Fin Metodo
+	public getTotal() como Real
+		return=total
+	Fin Metodo
+
+	Metodo Datos()						//los metodos deben registrarse dentro de la clase
+		Mostrar "Ingrese el nombre del estudiante: "
+		Leer nombre 
+		Mostrar "Ingrese el apellido del estudiante: " 
+		Leer apellido
+		Mostrar "Ingrese las notas de los examenes parciales: "
+		para i=1 hasta 5 hacer
+			Si i=4 entonces
+				Mostrar "Ingrese la nota de la evaluacion continua: "
+				Leer eval_cont
+				total=total+eval_cont
+				Sino 
+					Si i=5 entonces	
+						Mostrar "Ingrese la nota del trabajo practico: "
+						Leer trab_pract
+						total=total+trab_pract
+						Sino
+							Mostrar "Ingrese la nota del parcial" i ": "
+							Leer parcial
+							total=total+parcial
+					Fin Si
+			Fin Si
+		Fin para
+	Fin Metodo
+	Metodo mostrar(nombre, apellido, promedio)
+		Mostrar "La nota final de " nombre " " apellido " en escala de 100 puntos es: " total   //a1.promedio //calc_prom()
+		Mostrar "La nota final de " nombre " " apellido " en escala de 20 puntos es: " (total*20)/100  //(a1.promedio*20)/100  //(calc_prom()*20)/100
+		Mostrar "La nota final de " nombre " " apellido " en escala de 4 puntos es: " (total*4)/100  //(a1.promedio*4)/100  //(calc_prom()*4)/100
+	Fin Metodo
+	Publico Metodo Resultado()
+		Datos()
+		mostrar()
+	Fin Metodo
+FinClase
+
+Algoritmo Alumno
+	Definir a1 como Estudiante
+	Definir a2 como Estudiante
+	a1 = nuevo Estudiante()    //(Esto es la instanciacion del objeto)
+	a2 = nuevo Estudiante()
+
+	a1.Resultado()
+	a2.Resultado()
+
+	Si (a1.getTotal() > a2.getTotal()) entonces
+		Mostrar "La nota de " a1.getNombre " es mayor que la de " a2.getNombre
+		Sino 
+			Si (a1.getTotal() < a2.getTotal()) entonces
+				Mostrar "La nota de " a1.getNombre() " es menor que la de " a2.getNombre
+				Sino 
+					Mostrar "las notas de los estudiantes son iguales"
+			FinSi
+	FinSi		
+FinAlgoritmo

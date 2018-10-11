@@ -1,0 +1,64 @@
+Clase Capitulo
+	Definir numero, descripcion, cantidad_pag como caracter
+Fin Clase
+
+Clase Libro 
+	Publico Definir nombre, autor, editorial, tipo_libro, como caracter 
+	Publico Definir num_pag como entero
+	Publico Definir fecha_pub como fecha
+	Publico Definir ilustrado como logico
+	Publico Definir capitulo como coleccion <capitulo> /*Definicion de coleccion*/
+
+	/*Definir alumnos(variable) como coleccion <clase>*/
+	/*alumnos.agregar(nuevo alumno())*/
+	/*alumnos[0].setNombre("Anderson)*/
+	/*Mostrar "El primer alumno se llama",alumnos[0]*/
+
+	Publico Metodo Libro() /*Metodo constructor por Defecto*/
+		nombre="Electronica"
+		autor="Bolylestad"
+		editorial="Pearson"
+		num_pag=1250
+		fecha=02/10/2000
+		ilustrado=verdadero
+	Fin Metodo
+
+	Publico Metodo Libro(nNombre, nAutor, nEditorial, nTipo, nNumpag, nFecha, nIlustrado) /*Metodo constructor con parametros*/
+		nombre=nNombre
+		autor=nAutor
+		editorial=nEditorial
+		num_pag=nNumpag
+		fecha=nFecha
+		ilustrado=nIlustrado
+	Fin Metodo
+
+	Publico Metodo Indicar()
+		Definir indice como caracter
+		Mostrar "Porque desea que se le muestre informacion: "
+		Leer indice
+		Mostrar "El nombre del libro es: "nombre
+		Mostrar "El nombre del autor es: "autor
+		Mostrar "El nombre de la editorial es: "editorial
+		Mostrar "El numero de paginas del libro es: "num_pag
+		Mostrar "La fecha de la publicacion del libro es: "fecha
+		Mostrar "El libro viene ilustrado?: "ilustrado
+		Mostrar "Esta informacion fue indicada por el siguiente motivo: "indice
+	Fin Metodo
+
+	Publico Metodo agregar_capitulo(objeto)
+		capitulos.agregar(objeto)
+Fin Clase
+
+
+
+
+Proceso InfoLibro
+	Definir l1 como Libro
+	l1=nuevo Libro() /*Aqui se crea el objeto que se indica en el constructor*/
+	Definir c1 como Capitulo
+	c1=nuevo Capitulo()
+
+	l1.agregar_capitulo(c1)
+
+	l1.Indicar()
+Fin Proceso		

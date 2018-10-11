@@ -1,0 +1,16 @@
+Clase Persona
+	definir nombre, cedula como caracter
+	definir fecha_nacimiento como fecha
+	protegido definir tipo_sangre como caracter
+
+	publico metodo mostrar()
+		mostrar "Los datos de la persona son: "
+		mostrar nombre, cedula, fecha_nacimiento
+	Fin metodo
+Fin Clase
+
+Clase Paciente extiende Persona //hereda de persona
+	metodo ver_datos()
+		mostrar "El tipo de sangre es: " tipo_sangre
+	fin metodo
+Fin Clase

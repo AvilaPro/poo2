@@ -1,0 +1,15 @@
+Enunciado de la tarea 4 de la sección 2709
+
+Una entidad bancaria permite a sus cliente tener una colección de instrumentos bancarios pudiendo ser éstos: a)Cuentas bancarias de tipo ahorro, corriente o electrónica, b) Tarjetas de créditos tipo: Visa, masterCard o American Express, c) Créditos bancarios:  financiamientos especiales, hipotecas o préstamos. Tomando en cuenta que los clientes del banco, pueden ser: personas naturales, empresas privadas, sociedades anónimas o gubernamentales, 
+y cada cliente puede tener varios instrumentos bancarios, diseñe un algoritmo en pseudocódigo que muestre en pantalla (cuerpo principal) las opciones disponibles para:
+
+ 1-Registrar un cliente 2-Asignar/registrar un instrumento bancario a un cliente, 3-Ver la información del cliente y la lista de sus instrumentos bancarios.
+1.- Defina las clases cliente e instrumentos bancarios (con los atributos necesarios de acuerdo al contexto), al menos una debe ser clase abstracta con sus métodos abstractos, Defina al menos una subclase que herede de la clase abstracta (aplique el concepto de herencia)
+
+2.- Defina atributos tipo colección para el cliente
+
+3.- Defina los métodos necesarios en las clases, para resolver el problema planteado (registrar cliente, registrar instrumento bancario, mostrar información de cliente y de instrumento bancarios)
+
+4.- Utilice ciclos para mostrar la información correctamente y aplique el concepto de sobreescritura de métodos
+
+5.- En el cuerpo principal muestre las opciones indicadas en el enunciado, instancie correctamente los objetos para ejecutar el algoritmo e invoque los métodos para resolver el problema planteado (simulando la ejecución solamente con un cliente)

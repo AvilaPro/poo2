@@ -1,0 +1,14 @@
+Enunciado de la tarea 3 de la sección 2709
+
+Un banco permite a sus clientes a través de una app móvil conocer los saldos de sus instrumentos bancarios, cada cliente puede tener una cuenta bancaria y una tarjeta de crédito. Para ingresar a la app el sistema valida su nombre de usuario y contraseña, al ingresar  puede visualizar el saldo disponible de la cuenta bancaria y el saldo disponible y deudor de la tarjeta de crédito.
+Diseñe un algoritmo en pseudocodigo que valide usuario y contraseña de un cliente y permita ver los saldos de sus instrumentos bancarios
+
+1.- Defina las clases cliente, cuenta bancaria y tarjeta de crédito, con los atributos correspondientes asignando tipo de dato adecuado y modificador de acceso privado
+
+2.- Defina los métodos constructor por defecto y con parámetros para cada una de las clases
+
+3.- Defina el método sobrecargado para la clase cliente (registra una cuenta bancaria o una tarjeta de crédito) considerando la diferencia de atributos entre cuenta bancaria y tarjeta de crédito. Defina además el método mostrar datos
+
+4.- Desde el cuerpo principal defina e instancie los objetos, asigne valores del cliente y ejecute el método registrar instrumento bancario
+
+5.- Desde el cuerpo principal lea las entradas para iniciar sesión y valide el usuario y contraseña, si son correctos muestre la información de la cuenta y tarjeta de crédito
